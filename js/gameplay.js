@@ -35,7 +35,7 @@ function reset(){
         var number = (getY(this) - 1) * 4 + getX(this);
         if(number <= 15){
             // create a new element representing the piece
-            $(this).append($("<div/>").addClass("playing-piece").html(number));
+            $(this).append($("<div/>").addClass("playing-piece").html("<img src='img/" + number + ".png' class='number_img'/>"));
             $(this).data('content', number);
         } else {
             $(this).data('content', 0);

@@ -21,9 +21,6 @@
 }
 
 .playing-piece{
-    color: black;
-    text-align: center;
-    font-size: 8vw;
     width:100%;
     height:100%;
     background-image: url(../img/background.jpg);
@@ -31,6 +28,10 @@
     border: #804200 5px solid;
     border-radius: 10px;
     cursor: pointer;
+}
+.number_img{
+    width:100%;
+    height:100%;
 }
 body{
     font-family: Verdana,sans-serif;
